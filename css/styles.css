@@ -1,0 +1,53 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: chartreuse;
+}
+
+.centrar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.marge{
+    height: 600px;
+    margin: 0;
+    background-color: yellow;
+    background-image: url(../images/Marge.png);
+    background-size: 350px;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 50px;
+}
+
+.homero{
+    height: 600px;
+    margin: 0;
+    background-color: pink;
+    background-image: url(../images/Homero.png);
+    background-size: 220px;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 50px;
+}   
+
+h1 {
+    font-family: 'Gloria Hallelujah', cursive;
+    font-size: 50px;
+}
+
+h2 {
+    font-family: 'Gloria Hallelujah', cursive;
+    font-size: 30px;
+}
+
+p {
+    font-family: 'Gloria Hallelujah', cursive;
+    font-size: 30px;
+}
